@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+#logo{
+    width: 200px;
+    padding: 4px;
+}
+header{
+    width: 100%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2) ;
+}
+main{
+    height: 80%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+#equipe-qodeless{
+    width: 40%;
+}
+.descricao{
+    width: 50%;
+}
+#texto{
+    max-width: 600px;
+    text-align: justify;
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #19143a;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
